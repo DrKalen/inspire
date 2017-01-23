@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: password
+  host: localhost
+
+development:
+  <<: *default
+  database: inspire_development
+
+test:
+  <<: *default
+  database: inspire_test
+
+production:
+  <<: *default
+  database: inspire_production
+  #username: inspire
+  #password: <%= ENV['INSPIRE_DATABASE_PASSWORD'] %>
