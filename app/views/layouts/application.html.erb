@@ -11,6 +11,7 @@
   <body>
     <header class="row">
         <div class="col-3">
+           <%= link_to root_path, class: 'logo' do %>
             <div class="circle">
               <br />
               Bringing
@@ -19,12 +20,13 @@
               <br />
               the best
             </div>
+          <% end %>
         </div>
         <div class="col-4 slogan">
             Ideas to point the way
         </div>
         <div class="col-5 links">
-            <%= link_to 'Add your favorites!', '#' %>
+            <%= link_to 'Add your favorite quotes!', new_quote_path %>
             <%= link_to 'About', '#' %>
         </div>
     </header>
@@ -40,7 +42,7 @@
     <dif class="footer">
         <div class="row container">
         <div class="col-6">
-          <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+          <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
         </div>
         <div class="col-6 footer-blurb">
         Proudly hacked in Clearwater, FL by <a href= "http://kalenhammann.getforge.io">Dr. Kalen Hammann</a><br />

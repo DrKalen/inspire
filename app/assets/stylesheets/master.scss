@@ -66,6 +66,7 @@ h1 {
 
 h2 {
     font-family:  'permanent_markerregular';
+    padding-left: 100px;
 }
 
 .next-quote {
@@ -79,4 +80,8 @@ h2 {
         font-family: 'Noto Sans', sans-serif;
         text-align: right;
         font-size: 10px;
+}
+
+.logo:hover {
+    text-decoration: none;
 }
