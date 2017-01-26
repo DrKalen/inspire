@@ -33,6 +33,18 @@
 
     <br class="clear" />
 
+    <div class="container">
     <%= yield %>
+    </div>
+
+    <dif class="footer">
+        <div class="row container">
+        <div class="col-6">
+          <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+        </div>
+        <div class="col-6 footer-blurb">
+        Proudly hacked in Clearwater, FL by <a href= "http://kalenhammann.getforge.io">Dr. Kalen Hammann</a><br />
+        Want to build your own Web App like this? <br /> <a href="http://thefirehoseproject.com">Learn how to code here from the guys who taught me!</a>
+        </div>
   </body>
 </html>
