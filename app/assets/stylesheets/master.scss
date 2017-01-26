@@ -1,4 +1,8 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Noto+Sans|Oregano|Ovo|Tillana|Yellowtail');
+
+
 @import "bootstrap";
 
 .clear {
@@ -42,6 +46,8 @@
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #3F44D9;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
 }
 
 header {
@@ -50,4 +56,14 @@ header {
 
 hr {
     clear:both;
+}
+
+h1 {
+    font-family: 'permanent_markerregular';
+    font-weight: bold;
+    font-size: 48 px;
+}
+
+h2 {
+    font-family:  'permanent_markerregular';
 }
