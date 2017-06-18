@@ -1,24 +1,14 @@
 # README
+![SCREENSHOT](../master/app/assets/images/inspire.png)
+* The challenge: create an app that displays inspiring quotations and invites users to add
+    their favorite quotes to the collection.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* The solution: A database-powered quote generator with a mobile-first design.
 
-Things you may want to cover:
+* Features:
+    Clean, open look that adjusts for screen size.
+    Home page: quotes display and links to add quotes, view more, and learn about the app.
+    Modal to add quotes.
+    About page.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Technology: Ruby on Rails, HTML, CSS, Google Fonts, FontSquirrel, Bootstrap, SimpleForm
